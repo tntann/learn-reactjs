@@ -1,9 +1,22 @@
+import React from "react";
 import "./App.scss";
-import HackerNews from "./components/news/HackerNews";
+import "./index.scss";
+// import Form from "./components/form/Form";
+import MovieSearchApp from "./components/MovieSearchApp";
+// import Blog from "./components/Blog";
+// import DropDown from "./components/DropDown";
+// import InputRef from "./components/InputRef";
+// import TextAreaAutoResize from "./components/TextAreaAutoResize";
+// import StopWatch from "./components/StopWatch";
+// import HackerNews from "./components/news/HackerNews";
+// import HackerNewsReducer from "./components/news/HackerNewsReducer";
 // import Header from "./components/Header";
 // import Timer from "./components/Timer";
 // import Photo from "./components/photos/Photo";
-import "./index.scss";
+// import SideBarMenu from "./components/SideBarMenu";
+// import useClickOutSide from "./hook/useClickOutSide";
+// import HackerNews from "./components/news/HackerNews";
+// import HackerNewsWithHook from "./components/news/HackerNewsWithHook";
 // import Card from "./components/card/Card";
 // import Card2 from "./components/card/Card2";
 // import CardList from "./components/card/CardList";
@@ -24,31 +37,36 @@ import "./index.scss";
 // };
 
 function App() {
+  // const [show, setShow] = React.useState(false);
+  // const { show, setShow, nodeRef } = useClickOutSide("button");
   return (
     <div>
-      {/* <Toggle></Toggle>
-      <Counters></Counters>
-      <GameReducer></GameReducer>
-      <Button>Primary</Button>
-      <Button secondary>Secondary</Button> */}
+      {/* <HackerNewsReducer></HackerNewsReducer> */}
 
-      {/* <ThemeProvider theme={theme}> */}
-      {/* <CardList>
-        <CardTailwind primary={true}></CardTailwind>
-        <CardTailwind></CardTailwind>
-        <CardTailwind></CardTailwind>
-        <CardTailwind></CardTailwind>
-        <CardTailwind></CardTailwind>
-        <CardTailwind></CardTailwind>
-      </CardList> */}
-      {/* </ThemeProvider> */}
+      {/* <StopWatch></StopWatch> */}
+      {/* <InputRef></InputRef> */}
+      {/* <TextAreaAutoResize></TextAreaAutoResize> */}
+      {/* <div className="p-5">
+        <DropDown></DropDown>
+      </div> */}
 
-      {/* <Photo></Photo> */}
-      {/* <Counter></Counter> */}
-      {/* <Timer></Timer> */}
-      {/* <Header></Header> */}
+      {/* <Blog></Blog> */}
 
-      <HackerNews></HackerNews>
+      {/* <button onClick={() => setShow(!show)}>Toggle Button</button>
+      {show && <HackerNews></HackerNews>} */}
+
+      {/* <HackerNewsWithHook></HackerNewsWithHook> */}
+
+      {/* <button
+        onClick={() => setShow(true)}
+        className="inline-block m-3 p-3 rounded-lg text-white bg-green-400"
+      >
+        Show Menu
+      </button>
+      <SideBarMenu show={show} ref={nodeRef}></SideBarMenu> */}
+
+      {/* <Form></Form> */}
+      <MovieSearchApp></MovieSearchApp>
     </div>
   );
 }
